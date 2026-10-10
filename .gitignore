@@ -1,0 +1,28 @@
+# Environment secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python virtual environment and cache
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# User uploads
+backend/uploads/
+
+# Documents
+*.doc
+*.docx
+*.pdf
+
+# Logs
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
